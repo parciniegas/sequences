@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, APIRouter
-from routers import client
+from services import client
 
 app = FastAPI(
     title="Sequences API", openapi_url="/openapi.json"
